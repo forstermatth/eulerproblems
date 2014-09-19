@@ -6,7 +6,7 @@
 #include <vector>
 using namespace std;
 
-vector<long> erosieve(int);
+vector<long> erosieve(long);
 
 int main(){
 	long sum = 0; //REMEMBER TO USE FUCKING LONGS WHEN ADDING LARGE NUMBERS DUMMY
@@ -20,7 +20,7 @@ int main(){
 	return 0;
 }
 
-vector<long> erosieve(int bound){
+vector<long> erosieve(long bound){
 	vector<bool> primelist(bound+1, 1);
 
 	primelist[0] = primelist[1] = 0;
