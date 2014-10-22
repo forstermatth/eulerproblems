@@ -9,7 +9,7 @@ using namespace std;
 vector<long> erosieve(long);
 
 int main(){
-	long sum = 0; //REMEMBER TO USE FUCKING LONGS WHEN ADDING LARGE NUMBERS DUMMY
+	long sum = 0; 
 	vector<long> primelist = erosieve(2000000);
 	
 	for(vector<long>::iterator it = primelist.begin(); it != primelist.end(); it++){
